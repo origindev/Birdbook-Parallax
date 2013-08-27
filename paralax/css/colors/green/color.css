@@ -1,0 +1,53 @@
+h1, h2, h3, h4, h5, h6, a, a:visited, .intro-text span, .features .item i, .reviews .item .content .profile .name strong, .previews .item:hover h4, .tbl-pricing .column ul li i { color:#4cbb1b; }
+
+a:hover { color:#5a5a5a; } /* Don't change the value */
+
+.btn, input[type="button"], input[type="submit"], input[type="reset"], button {
+	text-shadow:0px 1px 0px #1f5e04;
+	border:1px solid #38ab05;
+	background-color:#4cbb1b;
+	background-image:linear-gradient(top, #5ddf23 0%, #4cbb1b 100%);
+	background-image:-o-linear-gradient(top, #5ddf23 0%, #4cbb1b 100%);
+	background-image:-moz-linear-gradient(top, #5ddf23 0%, #4cbb1b 100%);
+	background-image:-webkit-linear-gradient(top, #5ddf23 0%, #4cbb1b 100%);
+	background-image:-ms-linear-gradient(top, #5ddf23 0%, #4cbb1b 100%);
+	background-image:-webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #5ddf23),
+		color-stop(1, #4cbb1b)
+	);
+}
+.btn:hover, input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover, button:hover {
+	border:1px solid #2e8d03;
+	background-color:#52d119;
+	background-image: linear-gradient(top, #43b411 0%, #52d119 100%);
+	background-image: -o-linear-gradient(top, #43b411 0%, #52d119 100%);
+	background-image: -moz-linear-gradient(top, #43b411 0%, #52d119 100%);
+	background-image: -webkit-linear-gradient(top, #43b411 0%, #52d119 100%);
+	background-image: -ms-linear-gradient(top, #43b411 0%, #52d119 100%);
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #43b411),
+		color-stop(1, #52d119)
+	);
+}
+
+.header { border-left:3px solid #4cbb1b; }
+
+.flex-control-paging li a { background-color:#b9f79e; }
+
+.previews .item:hover { border-bottom:4px solid #b9f79e; }
+
+.tbl-pricing .column.column-recommended .tbl-header, .flex-control-paging li a:hover, .flex-control-paging li a.flex-active, .previews .item:hover .button span { background-color:#4cbb1b; }
+
+.tbl-pricing .column.column-recommended { border-top:2px solid #55d31e; }
+.tbl-pricing .column.column-recommended .tbl-header h4 { border-bottom:1px solid #55d31e; }
+.tbl-pricing .column.column-recommended .tbl-header .price { border-top:1px solid #3d9914; }
+
+figure.figure-hover div { background:url(base-overlay.png) repeat; }
+
+.previews .item:hover .button { background:url(border-button-hover.png) repeat-x center; }
