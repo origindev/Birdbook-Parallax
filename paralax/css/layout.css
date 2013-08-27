@@ -29,15 +29,15 @@
 }
 
 body {
-	font-family:'Droid Sans', Arial, sans-serif;
-	color:#5a5a5a;
+	font-family: Calibri, Arial, sans-serif;
+	color:#000;
 	font-size:14px;
 	line-height:22px;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	color: #FF0000;
-	font-family: Bitter, serif;
+	font-family: Calibri, Arial, sans-serif;
 	font-weight: normal;
 	text-rendering: auto;
 	margin-top: 0px;
@@ -434,6 +434,11 @@ figure.figure-hover { position:relative; }
 /* ========================= Header ========================= */
 
 #header {
+	background: #fb0026;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 46px;
+	line-height: 46px;
 	overflow:hidden;
 	padding:20px 0px;
 }
@@ -442,11 +447,12 @@ figure.figure-hover { position:relative; }
 	height: 50px;
 	text-align: right;
 }
-	#header .social {
-		float:right;
+	.social {
+		/*float:right;*/
+		margin-top: 14px;
 		text-align:right;
 	}
-		#header .social p {
+		.social p {
 			margin-bottom:6px;
 			font-size:13px;
 			line-height:20px;
@@ -454,17 +460,17 @@ figure.figure-hover { position:relative; }
 			font-weight:bold;
 			color:#303030;
 		}
-		#header .social ul { width:100%; }
-			#header .social ul li {
+		.social ul { width:100%; }
+			.social ul li {
 				display:inline;
 				padding:0px 2px;
 			}
-			#header .social ul li:last-child { padding-right:0px; }
-				#header .social ul li img {
+			.social ul li:last-child { padding-right:0px; }
+				.social ul li img {
 					width:24px;
 					height:24px;	
 				}
-		#header .social .tooltip.bottom { margin-top:8px; }
+		.social .tooltip.bottom { margin-top:8px; }
 
 
 
@@ -472,9 +478,9 @@ figure.figure-hover { position:relative; }
 
 #top {
 	padding:80px 0px;
-	border-top:1px solid #ececec;
-	border-bottom:1px solid #ececec;
-	background:#f6f6f6 url(../images/base-section.png) repeat;
+	/*border-top:1px solid #ececec;*/
+	/*border-bottom:1px solid #ececec;*/
+	/*background:#f6f6f6 url(../images/base-section.png) repeat;*/
 }
 		#top .top-image img {
 			width:100%;
@@ -482,7 +488,7 @@ figure.figure-hover { position:relative; }
 			-webkit-box-shadow:2px 2px 4px #c0c0c0;
 			box-shadow:2px 2px 4px #c0c0c0;
 		}
-	#top .top-text { padding:60px 0px 40px; }
+	#top .top-text { /*:60px 0px 40px;*/ }
 	#top .header-title {
 		text-align:left;
 		margin-bottom:25px;	
@@ -509,7 +515,7 @@ figure.figure-hover { position:relative; }
 
 .intro-text {
 	text-align:center;
-	padding:60px 0px 40px;
+	/*padding:60px 0px 40px;*/
 }
 	.intro-text h1 {
 		color:#2a2a2a;
